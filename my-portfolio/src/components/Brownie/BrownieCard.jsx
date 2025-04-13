@@ -4,7 +4,6 @@ import { brownieList } from "./mock";
 function BrownieCard() {
   return (
     <div className="brownie-container">
-      <h2 className="brownie-title">🍫 Our Brownies</h2>
       <div className="brownie-list">
         {brownieList?.map((brownie, index) => (
           <div className="brownie-card" key={index}>

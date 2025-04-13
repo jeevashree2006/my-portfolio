@@ -1,26 +1,82 @@
 export const brownieList = [
-    {
-      name: "Classic Brownie",
-      price: 2.5,
-      image:
-        "https://images.unsplash.com/photo-1589308078056-ebf29b1e3fbd?auto=format&fit=crop&w=600&q=80",
-    },
-    {
-      name: "Walnut Brownie",
-      price: 3.0,
-      image:
-        "https://images.unsplash.com/photo-1601049671288-2610d8a8ce3d?auto=format&fit=crop&w=600&q=80",
-    },
-    {
-      name: "Fudge Brownie",
-      price: 3.5,
-      image:
-        "https://images.unsplash.com/photo-1604916283729-c0be9f64728b?auto=format&fit=crop&w=600&q=80",
-    },
-    {
-      name: "Salted Caramel Brownie",
-      price: 4.0,
-      image:
-        "https://images.unsplash.com/photo-1626332142170-3520a1747cc6?auto=format&fit=crop&w=600&q=80",
-    },
-  ];
+  {
+    name: "Classic Brownie",
+    price: 2.5,
+    image: "classic.jpg",
+  },
+  {
+    name: "Fudgy Brownie",
+    price: 3.0,
+    image: "fudgy.jpg",
+  },
+  {
+    name: "Ragi Brownie",
+    price: 3.5,
+    image: "ragi.jpg",
+  },
+  {
+    name: "Nutella Brownie",
+    price: 4.0,
+    image: "Nutella.jpg",
+  },
+  {
+    name: "Biscoff Brownie",
+    price: 4.0,
+    image: "Bisscoff.jpg",
+  },
+  {
+    name: "Hazelnut Brownie",
+    price: 4.0,
+    image: "hazelnut.jpg",
+  },
+  {
+    name: "Almond Brownie",
+    price: 4.0,
+    image: "almond.jpg",
+  },
+  {
+    name: "Darkchoco Brownie",
+    price: 4.0,
+    image: "dark choco.jpg",
+  },
+  {
+    name: "Milk choco Brownie",
+    price: 4.0,
+    image: "milk choco chunk.jpg",
+  },
+  {
+    name: "White Choco Brownie",
+    price: 4.0,
+    image: "milk choco chunk.jpg",
+  },
+  {
+    name: "Triple choco Brownie",
+    price: 4.0,
+    image: "Triple choco chunk.jpg",
+  },
+  {
+    name: "Dark choco ganache",
+    price: 4.0,
+    image: "dark choco.jpg",
+  },
+  {
+    name: "Milk choco ganache",
+    price: 4.0,
+    image: "milk choco.jpg",
+  },
+  {
+    name: "white choco ganache",
+    price: 4.0,
+    image: "almond.jpg",
+  },
+  {
+    name: "Oreo brownie",
+    price: 4.0,
+    image: "oreo.jpg",
+  },
+  {
+    name: "Choco chip brownie",
+    price: 4.0,
+    image: "choco chip.jpg",
+  },
+];
