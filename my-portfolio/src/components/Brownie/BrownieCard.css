@@ -9,18 +9,17 @@
 .brownie-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 70px;
   justify-content: center;
 }
 
 .brownie-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid #e0b589;
+  justify-content: space-between; 
   border-radius: 10px;
   padding: 20px;
-  width: 275px;
+  width: 300px;
   height: 320px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;

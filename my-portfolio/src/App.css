@@ -40,5 +40,5 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  background: linear-gradient(to right, #1d3d60, #6685a8, #1d3d60);
+  background: linear-gradient(to right, #000000, #212121, #1e1d1dfa);
 }
