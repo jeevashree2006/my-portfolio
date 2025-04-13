@@ -2,14 +2,13 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="About-1" style={{ width: window.innerWidth - 200 }}>
+    <div className="About-1">
       <video
         autoPlay
         muted
         loop
         src="Making_video.mp4"
-        className="Myvideo"
-        // width={200}
+        className="Myvideo" 
       />
     </div>
   );

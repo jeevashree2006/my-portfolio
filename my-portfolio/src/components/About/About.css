@@ -1,6 +1,8 @@
-.About-1 {
-    background-image: url("../../Image/Making_video.mp4");
-    height: 400px;
+.About-1 { 
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
 
 }
 

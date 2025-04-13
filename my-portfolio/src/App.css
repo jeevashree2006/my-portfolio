@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(to right, #1d3d60, #6685a8, #1d3d60);
+}

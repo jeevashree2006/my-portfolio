@@ -2,7 +2,7 @@
   max-width: 1200px;
   margin: 2rem auto;
   padding: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -24,7 +24,7 @@
   border-radius: 10px;
   padding: 1rem;
   width: 200px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
 

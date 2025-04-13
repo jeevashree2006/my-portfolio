@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 100px;
+  height: 75px;
   align-items: center;
 }
 
@@ -19,9 +19,10 @@
 }
 
 .NavBar2 img {
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
+  margin-top: 5px;
 }
 
 .NavBar2 {
