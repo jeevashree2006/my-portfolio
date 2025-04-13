@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
+import About from "./components/About/About";
 
 function App() {
   return (
     <div className="App">
-
-      <h5>svg</h5>
+      <NavBar />
+      <About />
     </div>
   );
 }
-
 export default App;
-
