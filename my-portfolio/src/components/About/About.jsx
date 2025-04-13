@@ -7,7 +7,7 @@ const About = () => {
         autoPlay
         muted
         loop
-        src="Making_video.mp4"
+        src="brownie.mp4"
         className="Myvideo" 
       />
     </div>
