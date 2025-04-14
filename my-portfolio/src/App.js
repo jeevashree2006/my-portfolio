@@ -1,17 +1,27 @@
-import "./App.css";
+import React, { useState } from "react";
 import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 import BrownieCard from "./components/Brownie/BrownieCard";
+import "./App.css";
 
 function App() {
+  const [cartItems, setCartItems] = useState([]);
+  const [phoneNumber, setPhoneNumber] = useState("");
+
   return (
     <div className="App">
-      <div className="navbar">
-        <NavBar />
-      </div>
+      <NavBar
+        cartItems={cartItems}
+        setCartItems={setCartItems}
+        phoneNumber={phoneNumber}
+        setPhoneNumber={setPhoneNumber}
+      />
       <About />
-      <BrownieCard />
+      <BrownieCard cartItems={cartItems} setCartItems={setCartItems} />
+      <Footer />
     </div>
   );
 }
+
 export default App;
