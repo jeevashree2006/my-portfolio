@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+  --primary-color: linear-gradient(90deg, hsl(211, 100%, 52%) 0%, hsl(243, 100%, 69%) 100%);
+  --primary-background: linear-gradient(90deg, hsl(211, 100%, 52%) 0%, hsl(243, 100%, 69%) 100%);
+  --secondary-color: linear-gradient(90deg, hsl(211, 100%, 52%) 0%, hsl(243, 100%, 69%) 100%);
+  --accent-color: linear-gradient(90deg, hsl(211, 100%, 52%) 0%, hsl(243, 100%, 69%) 100%);
+  --background-color: #fff8f0;
+  --text-color: #147eff;
+  --light-text: #666;
+  --border-color: #147eff80;
+  --shadow-color: rgba(139, 69, 19, 0.2);
+}
