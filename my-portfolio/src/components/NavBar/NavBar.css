@@ -3,8 +3,9 @@
   justify-content: space-between;
   align-items: center;
   height: 75px;
-  padding: 0 20px;
-  background-color: #fff;
+  padding: 0 50px 0px 20px;
+  color: white;
+  background-color: #000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -16,7 +17,7 @@
 
 .NavBar3 ul {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   list-style: none;
 }
 

@@ -1,16 +1,44 @@
 import "./About.css";
+import { useRef, useEffect } from "react"; 
 
-const About = () => {
+export default function About({scrollToSection}) {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch((error) => {
+        console.log("Autoplay prevented:", error);
+      });
+    }
+  }, []);
+
   return (
-    <div className="About-1">
-      <video
-        autoPlay
-        muted
-        loop
-        src="brownie.mp4"
-        className="Myvideo" 
-      />
-    </div>
+    <section className="video-hero">
+      <div className="video-container">
+        <video
+          src="brownie.mp4"
+          ref={videoRef}
+          className="hero-video"
+          loop
+          muted
+          playsInline
+          poster="/brownie.mp4?height=500&width=1200"
+        >
+          <source
+            src="/brownie.mp4?height=500&width=1200"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <div className="video-overlay"></div>
+      </div>
+      <div className="hero-content">
+        <h1 className="hero-title">Delicious Handcrafted Brownies</h1>
+        <p className="hero-subtitle">
+          Baked with love, delivered to your doorstep
+        </p>
+        <button className="hero-cta" onClick={() => scrollToSection("product")}>Explore Our Menu</button>
+      </div>
+    </section>
   );
-};
-export default About;
+}

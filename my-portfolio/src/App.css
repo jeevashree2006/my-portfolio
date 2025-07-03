@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -41,4 +42,24 @@
   top: 0;
   z-index: 999;
   background: linear-gradient(to right, #000000, #212121, #1e1d1dfa);
+}
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row;
+  }
+}
+.navbar {
+  
 }
